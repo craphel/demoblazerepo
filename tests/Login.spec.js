@@ -54,7 +54,7 @@ test('purchase a mobile ',async ({page})=>{
     
 })
 
-test.only('purchase a monitor ',async ({page})=>{
+test('purchase a monitor ',async ({page})=>{
     test.setTimeout(60000)
     const login=new Login(page)
     await login.openApplication()

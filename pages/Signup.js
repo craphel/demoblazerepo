@@ -13,7 +13,7 @@ async openApplication(){
 }
 async signUp(username,password){
    
-   await this.username.fill(usernameg)
+   await this.username.fill(username)
    await this.password.fill(password)
 }
 async handleAlert(){
